@@ -19,7 +19,7 @@ public class PostRequest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("No data"))
+                .body("data", equalTo("some data"))
         ;
 
     }
